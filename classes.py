@@ -46,7 +46,7 @@ class Student:
 
         # если студент изучает предмет, то выставляем оценки
         if cource in self.current_cources:
-            self.grades[cource] = grades            
+            self.grades[cource] = grades           
 
         return
 
